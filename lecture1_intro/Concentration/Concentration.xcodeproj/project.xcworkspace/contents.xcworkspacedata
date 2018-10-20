@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Concentration.xcodeproj">
+      location = "self:/Users/michel_deiman/Documents/Programming/CS193P iOS11 Swift4/Lecture 1 - Concentration/Lecture 1 - Concentration.xcodeproj">
    </FileRef>
 </Workspace>
