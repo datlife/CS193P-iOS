@@ -1,7 +1,7 @@
 ## Introduction to Swift
 
-This repo contains a "Concentration" app discussed in the lecture video. Topics are covered:
-
+This repo contains a "Concentration" app discussed in the lecture video. 
+Covered topics are:
 * How to map UI to code in XCode
 * Define a function in Swift (internal/external naming arguments)
 * Define a variable in Swift (strong type/type inference)
