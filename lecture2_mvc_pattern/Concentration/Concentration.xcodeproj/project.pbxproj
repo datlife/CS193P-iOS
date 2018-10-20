@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F6E77C1217BDE7B003A8DA7 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6E77C0217BDE7B003A8DA7 /* Concentration.swift */; };
+		4F6E77C3217BDF19003A8DA7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6E77C2217BDF19003A8DA7 /* Card.swift */; };
 		EA5F13081FB861A0009590B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F13071FB861A0009590B6 /* AppDelegate.swift */; };
 		EA5F130A1FB861A0009590B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F13091FB861A0009590B6 /* ViewController.swift */; };
 		EA5F130D1FB861A0009590B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5F130B1FB861A0009590B6 /* Main.storyboard */; };
@@ -15,7 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA5F13041FB861A0009590B6 /* Lecture 1 - Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture 1 - Concentration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6E77C0217BDE7B003A8DA7 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		4F6E77C2217BDF19003A8DA7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EA5F13041FB861A0009590B6 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5F13071FB861A0009590B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA5F13091FB861A0009590B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA5F130C1FB861A0009590B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +50,7 @@
 		EA5F13051FB861A0009590B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA5F13041FB861A0009590B6 /* Lecture 1 - Concentration.app */,
+				EA5F13041FB861A0009590B6 /* Concentration.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +60,8 @@
 			children = (
 				EA5F13091FB861A0009590B6 /* ViewController.swift */,
 				EA5F130B1FB861A0009590B6 /* Main.storyboard */,
+				4F6E77C0217BDE7B003A8DA7 /* Concentration.swift */,
+				4F6E77C2217BDF19003A8DA7 /* Card.swift */,
 				EAB24F441FB8622400FD5E4D /* Supporting Files */,
 				EA5F13131FB861A0009590B6 /* Info.plist */,
 			);
@@ -75,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA5F13031FB861A0009590B6 /* Lecture 1 - Concentration */ = {
+		EA5F13031FB861A0009590B6 /* Concentration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA5F13161FB861A0009590B6 /* Build configuration list for PBXNativeTarget "Lecture 1 - Concentration" */;
+			buildConfigurationList = EA5F13161FB861A0009590B6 /* Build configuration list for PBXNativeTarget "Concentration" */;
 			buildPhases = (
 				EA5F13001FB861A0009590B6 /* Sources */,
 				EA5F13011FB861A0009590B6 /* Frameworks */,
@@ -87,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "Lecture 1 - Concentration";
+			name = Concentration;
 			productName = Concentration;
-			productReference = EA5F13041FB861A0009590B6 /* Lecture 1 - Concentration.app */;
+			productReference = EA5F13041FB861A0009590B6 /* Concentration.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA5F13031FB861A0009590B6 /* Lecture 1 - Concentration */,
+				EA5F13031FB861A0009590B6 /* Concentration */,
 			);
 		};
 /* End PBXProject section */
@@ -146,6 +152,8 @@
 			files = (
 				EA5F130A1FB861A0009590B6 /* ViewController.swift in Sources */,
 				EA5F13081FB861A0009590B6 /* AppDelegate.swift in Sources */,
+				4F6E77C1217BDE7B003A8DA7 /* Concentration.swift in Sources */,
+				4F6E77C3217BDF19003A8DA7 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA5F13161FB861A0009590B6 /* Build configuration list for PBXNativeTarget "Lecture 1 - Concentration" */ = {
+		EA5F13161FB861A0009590B6 /* Build configuration list for PBXNativeTarget "Concentration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA5F13171FB861A0009590B6 /* Debug */,
