@@ -9,12 +9,11 @@
 import Foundation
 
 // We define Card model, or how Card should behave
-// This Card Model should not contain any emoji, which would be
-// handle by the View (UI).
+// This Card Model should not contain any emoji (or ViewUI).
 struct Card {
     var isFaceUp = false
     var isMatched = false
-    var identifer: Int
+    var identifier: Int
     
     static var identiferFactory  = 0
     static func getUniqueIdentifier() -> Int {
@@ -22,6 +21,6 @@ struct Card {
         return identiferFactory
     }
     init(){  // init can have same external/internal name
-        self.identifer = Card.getUniqueIdentifier()
+        self.identifier = Card.getUniqueIdentifier()
     }
 }

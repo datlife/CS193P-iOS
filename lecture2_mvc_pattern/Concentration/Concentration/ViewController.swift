@@ -28,28 +28,25 @@ class ViewController: UIViewController {
         for index in cardButtons.indices{
             let button = cardButtons[index]
             let card = game.cards[index]
-            
             if card.isFaceUp{
                 button.setTitle(emoji(for: card), for: UIControlState.normal)
                 button.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
             } else {
                 button.setTitle("", for: UIControlState.normal)
-                button.backgroundColor = card.isMatched ? #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1) :#colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 1)
+                button.backgroundColor = card.isMatched ? #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1) :#colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 1)
             }
         }
     }
     
-    var emojiChoices = ["🎃", "👻", "😈","👹","🍭","🍎","😂","🤷‍♂️"]
     var emojiDictionary = [Int:String]()
-    
+    var emojiChoices = ["🎃", "👻", "😈","👹","🍭","🍎","😂","🤷‍♂️"]
     func emoji(for card: Card) -> String{
-        // initialize pair of card with the same emoji from a dictionary
         if emojiChoices.count > 0,
-           emojiDictionary[card.identifer] == nil{
+           emojiDictionary[card.identifier] == nil{
             let randIdx = Int(arc4random_uniform(UInt32(emojiChoices.count)))
-            emojiDictionary[randIdx] = emojiChoices.remove(at: randIdx)
+            emojiDictionary[card.identifier] = emojiChoices.remove(at: randIdx)
         }
-        return emojiDictionary[card.identifer] ?? "?"
+        return emojiDictionary[card.identifier] ?? "?"
     }
     
 
